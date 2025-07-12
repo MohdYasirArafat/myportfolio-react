@@ -11,8 +11,8 @@ const projects = [
     description: "A personal portfolio built using React and Tailwind CSS to showcase my skills, projects, and experience.",
     image: portfolioImg,
     tech: ["Html","React", "Tailwind CSS"],
-    link: "https://yourportfolio.com",
-    github: "https://github.com/yourusername/portfolio"
+    link: "https://myportfolio-react-ten.vercel.app/",
+    github: "https://github.com/MohdYasirArafat/myportfolio-react"
   },
   {
     title: "Food Ordering App",
