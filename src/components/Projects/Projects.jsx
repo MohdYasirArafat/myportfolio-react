@@ -1,8 +1,9 @@
 import React from "react";
 import portfolioImg from "../../assets/portfolioImg.png";
 import foodAppImg from  "../../assets/foodFlavoro.png";
-import weatherImg from  "../../assets/ai-chat-img.png";
+import weatherImg from  "../../assets/weatherImg.png";
 import amazonImg from  "../../assets/amazonImg.png";
+import aiChatImg from  "../../assets/ai-chat-img.png";
 
 const projects = [
   {
@@ -17,24 +18,32 @@ const projects = [
     title: "Food Ordering App",
     description: "A MERN stack application for ordering food with user authentication and real-time updates.",
     image: foodAppImg,
-    tech: ["Html", "Tailwind Css","Javascript", "React",],
-    link: "https://github.com/yourusername/food-app",
-    github: "https://github.com/yourusername/food-app"
+    tech: ["Html", "Tailwind Css","Javascript", "React"],
+    link: "https://food-react-app-beta.vercel.app/",
+    github: "https://github.com/MohdYasirArafat/food-react-app"
   },
   {
     title: "Ai-Chat-App",
     description: "A ai-chat-app built using React  with dark mode and responsive layout.",
-    image: weatherImg,
+    image: aiChatImg,
     tech: ["Html","React", "Tailwind CSS"],
-    link: "https://ai-chat-app.com",
-    github: "https://github.com/MohdYasirArafat/ai-chat-app"
+    link: "https://ai-chat-app-ivory.vercel.app/",
+    github: "https://github.com/MohdYasirArafat/react-ai-app"
+  },
+  {
+    title: "weather-app",
+    description: "A weather-app built using React  with  responsive layout.",
+    image: weatherImg,
+    tech: ["Html","React","javascript", "Tailwind CSS"],
+    link: "https://weather-app-jade-one-31.vercel.app/",
+    github: "https://github.com/MohdYasirArafat/weather-app"
   },
   {
     title: "Amazon Clone",
     description: "Amaxon clone built using Html, css and javascript with  responsive layout.",
     image: amazonImg,
     tech: ["JavaScript", "Html", " CSS"],
-    link: "https://amazon-clone",
+    link: "https://amazon-clone-ten-taupe-97.vercel.app/",
     github: "https://github.com/MohdYasirArafat/amazon-clone"
   },
 ];
